@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  openufp-test:
+    build: .
+    command: /openufp-test/openufp-test.py -n -a -u https://www.msn.com -s 172.19.0.9 -p 4005
